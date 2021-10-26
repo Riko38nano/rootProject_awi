@@ -1,7 +1,8 @@
-package project.awi.models;
+package project.awi.localisation.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import project.awi.models.User;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -18,11 +19,11 @@ public class Location {
     private double latitude;
     private double longitude;
     private Date location_date;
-
+/*
     @ManyToMany(mappedBy = "locations")
     @JsonIgnore
     private List<User> users;
-
+ */
     public long getLocation_id() {
         return location_id;
     }
@@ -46,7 +47,7 @@ public class Location {
     public void setLongitude(double longitude) {
         this.longitude = longitude;
     }
-
+/*
     public List<User> getUsers() {
         return users;
     }
@@ -54,7 +55,7 @@ public class Location {
     public void setUsers(List<User> users) {
         this.users = users;
     }
-
+ */
     public Date getLocation_date() {
         return location_date;
     }

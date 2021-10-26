@@ -3,7 +3,7 @@ package project.awi.controllers;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+//import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import project.awi.models.User;
@@ -12,7 +12,7 @@ import project.awi.repositories.UserRepository;
 import java.util.List;
 
 @RestController
-@EnableWebSecurity
+//@EnableWebSecurity
 @RequestMapping("/api/users")
 public class UsersController {
     @Autowired

@@ -1,6 +1,7 @@
 package project.awi.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import project.awi.localisation.models.Location;
 
 import javax.persistence.*;
 import java.util.List;
@@ -18,12 +19,13 @@ public class User {
     private String phone_number;
     private String password;
 
+    /*
     @ManyToMany
     @JoinTable(name = "user_locations",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "location_id"))
-    private List<Location> locations;
-
+    //private List<Location> locations;
+     */
     public String getFirst_name() {
         return first_name;
     }

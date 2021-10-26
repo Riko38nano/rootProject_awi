@@ -1,4 +1,4 @@
-package project.awi;
+package project.awi.localisation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

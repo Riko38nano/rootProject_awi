@@ -1,4 +1,4 @@
-package project.awi;
+package project.awi.localisation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
