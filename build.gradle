@@ -29,6 +29,11 @@ dependencies {
     implementation project(':Users')
     implementation project(':Localisation')
     implementation project(":client")
+
+    implementation('org.springframework.boot:spring-boot-starter-security')
+    testImplementation('org.springframework.security:spring-security-test')
+
+
 }
 
 test {
