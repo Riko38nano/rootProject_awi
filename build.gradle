@@ -24,16 +24,13 @@ dependencies {
     implementation "org.apache.kafka:kafka-streams:2.8.1"
 
     runtimeOnly 'org.postgresql:postgresql:42.2.24.jre7'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.5.5'
+
 
     implementation project(':Users')
-    implementation project(':Localisation')
+    implementation project(':localisation')
     implementation project(":client")
-
-    implementation('org.springframework.boot:spring-boot-starter-security')
-    testImplementation('org.springframework.security:spring-security-test')
-
-
+    implementation project(":testCovidAlert")
+    implementation project(":vaccine")
 }
 
 test {

@@ -6,6 +6,7 @@ import org.springframework.http.HttpStatus;
 //import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import project.awi.localisation.models.Location;
 import project.awi.models.User;
 import project.awi.repositories.UserRepository;
 

@@ -1,5 +1,5 @@
 package project.awi.controllers;
-
+/*
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -24,16 +24,16 @@ public class CovidAlertSecurityConfig extends WebSecurityConfigurerAdapter {
                 .defaultSuccessUrl("/",true);
     }
 
-    /*
     protected void configure( final AuthentificationManagerBuilder auth ) throws Exception {
         auth.inMemoryAuthentification()
                 .withUser("bob").password(passwordEncoder())
                 .encode("password_de_bob").roles("USER");
     }
-    */
-    
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 }
+
+*/
